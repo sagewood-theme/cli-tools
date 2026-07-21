@@ -1,0 +1,53 @@
+"$schema" = 'https://starship.rs/config-schema.json'
+
+palette = "sagewood"
+
+format = """$character"""
+
+[character]
+success_symbol = "[[󰌪](green) ❯](red)"
+error_symbol = "[[󰌪](red) ❯](red)"
+vimcmd_symbol = "[   ❮](subtext1)"
+
+[git_branch]
+disabled = true
+
+[directory]
+disabled = true
+
+[line_break]
+disabled = true
+
+[c]
+disabled = true
+
+[nodejs]
+disabled = true
+
+[palettes.sagewood]
+rosewater = "#cbd6cf"
+flamingo = "#9bb5b1"
+pink = "#caacc2"
+mauve = "#caacc2"
+red = "#d99c82"
+maroon = "#d99c82"
+peach = "#d99c82"
+yellow = "#d6caa3"
+green = "#a8b59b"
+teal = "#9bb5b1"
+sky = "#8da7b3"
+sapphire = "#8da7b3"
+blue = "#8da7b3"
+lavender = "#8da7b3"
+text = "#d2ded7"
+subtext1 = "#cbd6cf"
+subtext0 = "#677a70"
+overlay2 = "#677a70"
+overlay1 = "#677a70"
+overlay0 = "#5a6961"
+surface2 = "#3b4a43"
+surface1 = "#3b4a43"
+surface0 = "#222a26"
+base = "#2d3833"
+mantle = "#222a26"
+crust = "#161b19"
